@@ -179,7 +179,8 @@ p {
 .btn-outline-secondary:hover,
 .btn-outline-secondary:active,
 .btn-outline-secondary:focus {
-    background-color: #3e8061;
+    box-shadow: none !important;
+    background-color: transparent;
 }
 
 .btn-outline-light {
@@ -4062,15 +4063,7 @@ table thead .amt {
     color: #fe9903;
     text-decoration: none;
 }
-
-/* New Changes */
-img.login_logo {
-    height: 70px;
-    width: 70px;
-}
-
 /*********************************************************************************************************************************/
 /*********************************************************** S.T.Y.L.E ***********************************************************/
 /*********************************************************************************************************************************/
 
-/*# sourceMappingURL=main.css.map */

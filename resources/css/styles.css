@@ -1,0 +1,42 @@
+img.login_logo {
+    height: 70px;
+    width: 70px;
+}
+
+/* DataTables Custom Styles */
+.dataTables_custom .dataTables_length,
+.dataTables_custom .dataTables_filter{
+    margin: 15px 0;
+}
+
+.dataTables_custom .dataTables_wrapper .dataTables_paginate{
+    padding: 15px 0
+}
+
+.dataTables_custom .dataTables_wrapper .dataTables_paginate .paginate_button {
+    background-color: #f8f9fa !important;
+    border: 1px solid #ced4da !important;
+    padding: 6px 14px !important;
+    margin: 0 4px !important;
+    border-radius: 4px !important; 
+}
+
+.dataTables_custom .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_custom .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  background: #fff !important;
+  border-color: #333 !important;
+  color: #333 !important;;
+}
+
+.dataTables_custom .dataTables_wrapper .dataTables_paginate .paginate_button:not(.current):not(.disabled):hover {
+    background: #e9ecef !important;
+    border-color: #ced4da !important;
+    color: #212529 !important;
+}
+
+.dataTables_custom .dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+    opacity: 0.6;
+    background-color: #f1f1f1 !important;
+    color: #aaa !important;
+    pointer-events: none !important;
+}

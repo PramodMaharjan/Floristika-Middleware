@@ -20,6 +20,7 @@ Route::middleware('auth')->group(function () {
 
 Route::middleware(['auth', 'role:super_admin'])->group(function () {
     Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+    Route::get('/admin/orders/search', [DashboardController::class, 'search'])->name('admin.orders.search');
 });
 
 require __DIR__.'/auth.php';
