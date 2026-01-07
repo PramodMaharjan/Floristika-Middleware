@@ -1,0 +1,449 @@
+img.login_logo {
+    height: 70px;
+    width: 70px;
+}
+.dataTables_custom .table-listing .fulfilled {
+    color: #2a7f62;
+}
+.dataTables_custom .table-listing .unfulfilled {
+    color: #a63d3d;
+}
+.dataTables_custom .table-listing .default-text {
+    color: #212529;
+}
+.dataTables_custom .dataTables_length,
+.dataTables_custom .dataTables_filter,
+.dataTables_custom .dataTables_info,
+.dataTables_custom .dataTables_paginate {
+    margin: 10px 18px;
+    padding: 0 !important;
+}
+.dataTables_custom .dataTables_wrapper .dataTables_paginate {
+    padding: 15px 0;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+.dataTables_custom
+    .dataTables_wrapper
+    .dataTables_paginate
+    .paginate_button.previous {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.dataTables_custom
+    .dataTables_wrapper
+    .dataTables_paginate
+    .paginate_button.next {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+.dataTables_custom .dataTables_wrapper .dataTables_paginate .paginate_button {
+    background-color: #f8f9fa !important;
+    padding: 8px 12px !important;
+    border: none !important;
+    border-radius: 0px !important;
+    margin: 0;
+    box-shadow: none !important;
+}
+.dataTables_custom
+    .dataTables_wrapper
+    .dataTables_paginate
+    .paginate_button.current,
+.dataTables_custom
+    .dataTables_wrapper
+    .dataTables_paginate
+    .paginate_button.current:hover {
+    background: #fff !important;
+    color: #007bff !important;
+    border: none !important;
+}
+.dataTables_custom
+    .dataTables_wrapper
+    .dataTables_paginate
+    .paginate_button:not(.current):not(.disabled):hover {
+    background: #e9ecef !important;
+    border-color: #ced4da !important;
+    border: none !important;
+    color: #212529 !important;
+}
+.dataTables_custom .dataTables_wrapper .custom-arrow {
+    color: #333;
+}
+.dataTables_custom
+    .dataTables_wrapper
+    .dataTables_paginate
+    .paginate_button.disabled {
+    opacity: 0.6;
+    background-color: #f1f1f1 !important;
+    color: #aaa !important;
+    pointer-events: none !important;
+}
+.dataTables_custom
+    .dataTables_wrapper
+    .dataTables_paginate
+    .paginate_button.previous,
+.dataTables_custom
+    .dataTables_wrapper
+    .dataTables_paginate
+    .paginate_button.next {
+    padding: 4px 11px !important;
+}
+.dataTables_custom .dataTables_wrapper .dataTables_paginate > span {
+    line-height: 14px;
+}
+.dataTables_custom .dataTables_wrapper .dataTables_length label {
+    font-size: 14px;
+}
+.dataTables_custom .dataTables_wrapper .dataTables_filter input {
+    padding: 5px 5px 5px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.dataTables_custom .dataTables_wrapper .dataTables_filter input:focus-visible {
+    outline: 2px solid #007bff;
+}
+.filter-header {
+    position: relative;
+}
+.filter-header .filter-icon {
+    cursor: pointer;
+    margin-left: 5px;
+    color: #929292;
+}
+.filter-header .filter-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+    min-width: 120px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.filter-header .filter-dropdown select.column-filter {
+    width: 100%;
+    padding: 2px 4px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #fff;
+}
+.filter-header .filter-icon.active-filter {
+    color: #007bff;
+}
+.dataTables_scroll thead tr th {
+    border-width: 1px 1px 1px 0;
+    border-color: #e8e8e8 !important;
+    vertical-align: middle;
+    text-align: center;
+}
+table.dataTable thead th.sorting {
+    padding: 15px 18px;
+}
+table thead tr > :nth-child(5) {
+    width: 91px !important;
+}
+table thead tr > :nth-child(2),
+table thead tr > :nth-child(3),
+table thead tr > :nth-child(5),
+table thead tr > :nth-child(6),
+table thead tr > :nth-child(7),
+table thead tr > :nth-child(10),
+table thead tr > :nth-child(12),
+table thead tr > :nth-child(13),
+table thead tr > :nth-child(14) {
+    white-space: normal;
+    line-height: 1.3;
+}
+table.table-listing {
+    table-layout: fixed;
+}
+table .sorting_1 {
+    position: relative;
+}
+table .sorting_1 .cell-overlay-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    color: inherit;
+}
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: none !important;
+}
+#order-table {
+    display: none;
+}
+#order-table-body tr td:nth-child(2) {
+    cursor: pointer;
+}
+#order-table-body td {
+    padding: 10px 18px;
+    border-color: #e8e8e8;
+    font-size: 14px;
+    border-right-width: 1px;
+    vertical-align: middle;
+    text-align: center;
+}
+.form-select {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    border-color: #ced4da;
+    color: #495057;
+}
+.card .order-no {
+    font-size: 20px;
+    color: #000000 !important;
+}
+table.table-listing td:nth-child(3) {
+    min-width: 40px;
+    word-break: break-word;
+}
+table.dataTable th:nth-child(8) {
+    min-width: 320px;
+}
+.main-right-content .form-select {
+    font-size: 14px;
+    cursor: pointer;
+}
+select,
+.btn:focus {
+    box-shadow: none !important;
+}
+.main-right-content .orders-toolbar .btn {
+    font-size: 14px;
+}
+.main-right-content .orders-toolbar .dropdown-menu .dropdown-item {
+    font-size: 14px;
+    cursor: pointer;
+}
+.sidebar .nav-section .menu-text {
+    font-size: 14px;
+}
+.table-wrapper .dataTables_info {
+    margin-top: 15px;
+}
+.table-wrapper .dataTables_info,
+.table-wrapper .dataTables_paginate {
+    font-size: 14px;
+}
+.card .card-body {
+    font-size: 14px;
+}
+.card .card-body .btn {
+    font-size: 14px;
+}
+.card .table-light th {
+    border-bottom-color: #e8e8e8 !important;
+}
+.btn {
+    font-size: 14px !important;
+}
+.modal .modal-dialog .modal-content label,
+.modal .modal-dialog .modal-content input,
+.modal .modal-dialog .modal-content select,
+.modal .modal-dialog .modal-content textarea,
+.modal .modal-dialog .modal-content table {
+    font-size: 14px;
+}
+.order-detail {
+    padding: 25px;
+}
+.table.dataTable.no-footer {
+    border: none;
+}
+table.dataTable thead th:first-child.sorting,
+table.dataTable thead th:first-child.sorting_asc,
+table.dataTable thead th:first-child.sorting_desc {
+    background-image: none !important;
+}
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0 !important;
+}
+#purchase-list-body .product-image {
+    height: 70px;
+    width: 70px;
+}
+#purchase-list-body .no-page-break {
+    page-break-inside: avoid;
+}
+#custom-date-fields {
+    display: none;
+    /* max-width: 200px; */
+}
+#custom-date-fields .flatpickr-input {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+#export-orders {
+    text-transform: none;
+    border: 1px solid #aaa;
+}
+.overlay-spinner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner-card {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+.spinner-large {
+    width: 3rem;
+    height: 3rem;
+}
+.toast-slide-in {
+    transform: translateX(120%);
+    opacity: 0;
+    animation: slideIn 0.5s forwards;
+}
+.driver-photo {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+}
+.table-overlay-loader {
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .orders-toolbar .actions-toolbar {
+        flex-wrap: nowrap;
+        column-gap: 12px;
+    }
+    .orders-toolbar .actions-toolbar > .col-12 {
+        padding: 0;
+    }
+    #custom-date-fields {
+        padding-left: 0;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .sidebar.icon-toggle {
+        max-width: 60px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .top-bar #hamburger {
+        flex: 0 0 22px;
+    }
+    .sidebar {
+        max-width: 0;
+    }
+    .sidebar .logo span {
+        display: inline-block;
+    }
+    .sidebar .nav-section .menu-text {
+        display: block !important;
+    }
+    .sidebar.medium {
+        max-width: 80%;
+    }
+    .sidebar.toggle {
+        max-width: 80%;
+    }
+    .main-right-content {
+        padding-left: 0;
+    }
+    .statistics .card {
+        padding: 16px;
+    }
+    .statistics .card .icon {
+        position: static;
+    }
+    .statistics .card .num {
+        text-align: left;
+    }
+    .statistics .card .label {
+        text-align: left;
+    }
+    .statistics .row .col-6 {
+        padding: 0 14px;
+    }
+    .statistics .row .col-6:nth-child(1) {
+        padding-right: 10px;
+    }
+    .statistics .row .col-6:nth-child(3) {
+        padding-right: 10px;
+    }
+    .table-wrapper .dataTables_paginate {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .top-bar .top-bar-inner {
+        padding: 0 14px;
+    }
+    .orders-toolbar .actions-toolbar {
+        padding-right: 0;
+    }
+    .orders-toolbar .actions-toolbar > .col-12 {
+        padding-right: 0;
+    }
+    .main-right-content .right-content-inner {
+        padding: 25px 14px;
+    }
+    .order-detail {
+        padding: 14px;
+    }
+    .order-detail .card .card-body .table tbody {
+        font-size: 14px;
+    }
+    .dataTables_custom .dataTables_wrapper .dataTables_info,
+    .dataTables_custom .dataTables_wrapper .dataTables_paginate {
+        float: left;
+        margin-left: 18px;
+    }
+    .dataTables_custom .dataTables_wrapper .dataTables_paginate {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    #purchase-list-body .product-image {
+        height: 50px;
+        width: 50px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .dataTables_wrapper .dataTables_length {
+        float: left !important;
+    }
+    .dataTables_filter label {
+        width: 100%;
+    }
+    .dataTables_filter label input {
+        width: 100%;
+    }
+    #export-orders {
+        float: right;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .statistics .card .num {
+        font-size: 18px;
+    }
+    .btn {
+        font-size: 12px !important;
+    }
+}
