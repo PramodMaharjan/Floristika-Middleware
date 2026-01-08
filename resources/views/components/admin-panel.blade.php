@@ -8,7 +8,7 @@
                             <div class="icon">
                                 <i class="bi bi-cart"></i>
                             </div>
-                            <div class="label">Borders</div>
+                            <div class="label">Orders</div>
                             {{-- <div class="num" id="total-orders">{{ number_format($totalOrders) }}</div>
                             <div class="label mt-2 sale" id="total-sales">RM {{ number_format($totalSales, 2) }}</div> --}}
                             <div class="num" id="total-orders"></div>
